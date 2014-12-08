@@ -28,3 +28,42 @@
     margin-top: 70px;
     border-top: 1px solid #E5E5E5;
 }
+
+video#bg-vid {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: -20vh;
+    margin-right: -34vw;
+    min-width: 134vw;
+    min-height: 128vh;
+    z-index: -99;
+    background: url("finaldest.jpg") no-repeat;
+    background-size: cover;
+}
+
+.vid-container {
+    background-color: rgba(10,10,10,0.777);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    z-index: -98;
+}
+
+h1 {
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin-top: 17vh;
+}
+
+#title {
+
+    font-size: 7em;
+}
